@@ -1,1 +1,14 @@
-# Ignorar 
+# Ignorar arquivos de configuração do macOS
+.DS_Store
+
+# Ignorar diretórios e arquivos de build
+node_modules/
+dist/
+build/
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos de ambiente
+.env
+.DS_Store
